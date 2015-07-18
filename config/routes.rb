@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'projects/show'
+
   get 'projects/index'
 
   get 'projects/add'
